@@ -7,9 +7,11 @@ environment:
   sdk: ^3.9.2
 
 dependencies:
+  http: ^0.13.6
   flutter:
     sdk: flutter
   table_calendar: ^3.0.9
+  
 
 dev_dependencies:
   flutter_test:
