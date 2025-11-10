@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/calendar_screen.dart';
+import 'Form_crear_cuenta.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Agenda Fiscal',
       theme: ThemeData(primarySwatch: Colors.green),
-      home: CalendarScreen(),
+      home: CrearCuentaScreen(),
     );
   }
 }
