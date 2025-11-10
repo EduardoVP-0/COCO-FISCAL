@@ -10,7 +10,10 @@ dependencies:
   http: ^0.13.6
   flutter:
     sdk: flutter
+  image_picker: ^1.0.4
   table_calendar: ^3.0.9
+  carousel_slider: ^4.2.1
+  
   
 
 dev_dependencies:
@@ -28,3 +31,6 @@ flutter:
           weight: 700
   assets:
     - assets/fonts/
+    - assets/images/
+
+
